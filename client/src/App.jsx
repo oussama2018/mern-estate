@@ -5,9 +5,11 @@ import About from './About';
 import Profile from './Profile';
 import SignIn from './SignIn';
 import SignUp from './SignUp';
+import Header from './Header';
 const App = () => {
   return (
     <BrowserRouter>
+    <Header/>
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/sign-in" element={<SignIn/>}/>
